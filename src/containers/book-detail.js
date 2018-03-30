@@ -3,8 +3,16 @@ import { connect } from 'react-redux';
 
 class BookDetail extends Component {
 	render() {
+		if (!this.props.book) {
+			return <div>Select a book to get stated.</div>;
+		}
+
 		return (
-			<div>Book Detail!</div>
+			<div className="col-sm-8">
+				<h3>Detail</h3>
+				<div>Title: {this.props.book.title}</div>
+				<div>Pages: {this.props.book.pages}</div>
+			</div>
 		);
 	}
 }
