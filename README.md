@@ -1,5 +1,5 @@
 # booklist_redux
-Youtube webapp in react.js
+Book list webapp in react.js and redux
 
 ### About this project
 This project is a simple booklist webapp. The program will show the list of books and you can click at each book to see the book detail. I learned this from an online course ["Tutorial: Intro To React"](https://www.udemy.com/react-redux). In this project, I learn mostly about redux.
